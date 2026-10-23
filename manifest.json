@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "Google Search Suffix",
+  "version": "1.0",
+  "description": "Adds -ai to every Google search.",
+  "permissions": [
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "*://www.google.com/*",
+    "*://google.com/*",
+    "*://www.google.com.au/*",
+    "*://google.com.au/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
